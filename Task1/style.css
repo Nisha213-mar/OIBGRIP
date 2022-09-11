@@ -1,0 +1,155 @@
+body{
+    background-color: #1b1b1b;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 3rem 0 3rem;
+}
+nav > img{
+    width: 15%;
+    
+}
+ul{
+    display: flex;
+    margin-top: 3rem;
+}
+li > a{
+    color: white !important;
+    text-decoration: none;
+}
+ul > li{
+    font-family: sans-serif;
+    font-size: 17px;
+    margin: 15px;
+}
+.home > .box{
+    display: flex;
+}
+.sec1 >h3{
+    color: #ffffff;
+    font-size: 3rem;
+    font-family: system-ui;
+    margin: 0;
+}
+.sec1 > h4{
+   color: #ffffff;
+   font-size: 1.5rem;
+   font-family: sans-serif;
+   margin: 0;
+}
+.sec1 > p{
+    color: #ffffff;
+    font-family: sans-serif;
+}
+.sec1{
+    margin: 6rem 3rem;
+}
+.sec2{
+    margin: 0 3rem;
+}
+.sec2 > img{
+    height: 500px;
+}
+.button{
+    margin-top: 3rem;
+}
+.button>a{
+    border: 1px solid white;
+    text-decoration: none;
+    color: #ffffff;
+    text-align: center;
+    padding: 0.7rem 2rem;
+    font-family: sans-serif;
+    border-radius: 10px;
+}
+.btn3{
+    background: linear-gradient(to bottom,#cbcbcb 2%,#fff 100%);
+    margin-top: 60px;
+    margin-left: 140px;
+    padding: 15px 30px;
+    text-align: center;
+    transition: .5s;
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+    color: #1b1b1b;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 30px;
+    box-shadow: 1px 4px 12px rgba(94, 28, 68, .15);
+}
+.button{
+    background: linear-gradient(to bottom,#378de5 3%,#48789b 100%);
+    margin-top: 50px;
+    margin-left: 140px;
+    padding: 15px 30px;
+    text-align: center;
+    transition: .5s;
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+    color: #1b1b1b;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 30px;
+    box-shadow: 1px 4px 12px rgba(94, 28, 68, .15);
+}
+.drinks{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.drinks> img{
+    width: 4%;
+    height: 100px;
+    transition: 0.5s ease;
+    -webkit-transition: 0.5s ease;
+    border: #1b1b1b;
+}
+.drinks> img:hover{
+    transform: translateY(-10px);
+    -webkit-transform: translateY(-10px);
+}
+@media (max-width:500px) {
+    body{
+        background-size: contain;
+    }
+    nav{
+        background-size: cover;
+    }
+    
+    .box{
+        flex-wrap: wrap;
+    }
+    .drinks {
+     width: 100px;
+     
+    }
+    .drinks> img{
+        width: 80px;
+        height: 70px;
+        border: #1b1b1b;
+        
+    }
+    .btn3{
+        margin-top: 50px;
+        margin-left: 60px;
+        padding: 20px 30px;
+        
+        font-size: 18px;
+        font-weight: 700;
+        
+    }
+    nav > img{
+        width: 100px;
+        height: 100px;
+    }
+    .sec2 > img{
+        height: 400px;
+    }
+
+}
